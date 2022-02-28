@@ -1,1 +1,20 @@
-# Projet_chaussure
+# Projet Chaussure
+
+Je me lance comme défi de faire le contenu de la video suivante : https://www.youtube.com/watch?v=Gp2bUX7_WIg&ab_channel=TrueCoder .
+
+
+
+## Roadmap
+
+- Intégration des maquettes
+
+- Ajout des animations CSS et JavaScript
+
+
+## Tech only front
+
+**Front-end:** HTML, CSS, JavaScript
+
+
+![Maquette desktop](https://zupimages.net/up/22/09/kvga.jpg)
+
