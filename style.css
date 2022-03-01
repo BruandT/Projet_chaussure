@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    height: 98vh;
+    width: 98vw;
+    background-color: #f8f8f8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#img_shoes{
+    width: 500px;
+    height: 600px;
+    background-image: linear-gradient(45deg, #0136af, #22abfa);
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.1);
+    position: relative;
+    
+}
+#logo{
+    width: 150px;
+    height: 53.51px;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+#img_shoes i{
+    color: #FFFFFF;
+    font-size: 2.2em;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    
+}
+#img_shoes p{
+    margin-left: 5%;
+    font-family: Poppins;
+    font-weight: bolder;
+    font-size: 175px;
+    line-height: 262px;
+    letter-spacing: 0.07em;
+    position: absolute;
+    top: 60px;
+
+    color: rgba(255, 255, 255, 0.1);
+}
+.shoes{   
+    width: 700px;
+    position: absolute;
+    right: 0%;
+    bottom: 0%;
+    transform: rotate(-20deg);
+}
+#info_shoes{
+    width: 540px;
+    height: 700px;
+    background: #FFFFFF;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.1);
+}
+@media (max-width: 1200px){
+    /* body{
+        flex-direction: column;
+    } */
+    .shoes{
+        width: 120%;
+        bottom: 10%;
+    }
+}
